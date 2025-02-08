@@ -13,7 +13,7 @@ public class Main {
                 int b = 1;
                 while (i < N && b < 1000) {
                     int c = 1;
-                    while (i < N && c < 1000){
+                    while (i < N && c <   1000){
                         if(checkTriple(a, b, c)){
                             System.out.println("Числа " + a + ", " + b + ", " + c + " являются пифагоровой тройкой");
                             i++;
